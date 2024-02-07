@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>The Problem With Dog Overpopulation
-    </title>
-  </head>
+  <head><title>Example web page</title></head>
   <body>
-    <h1>The Problem With Dog Overpopulation in the Streets of Mexico</h1>
+      <h1>Hello,World</h1>
     <p>
-      Stray dogs are bad.
+      Welcome to my web page. This web page is a demonstration of HTML.
     </p>
   </body>
 </html>
