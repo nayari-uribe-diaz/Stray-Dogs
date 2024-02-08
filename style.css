@@ -1,6 +1,17 @@
+body{
+	background-color: linen;
+}
+
 h1{
   color:brown;
-  text-align: center;	
+  text-align: center;
+  font-size: 45px;  
+}
+
+h2{
+	text-align: center;
+	color: brown;
+	font-size:30px;
 }
 
 p:first-line {
@@ -9,6 +20,7 @@ p:first-line {
 
 p {
     text-indent:40px;
+	font-size: 20px
 }
 
 .headings{
@@ -17,8 +29,8 @@ p {
 }
 
 .everything{
-	padding-top: 70px;
-  padding-right: 70px;
-  padding-bottom: 70px;
-  padding-left: 70px;
+	padding-top: 170px;
+  padding-right: 170px;
+  padding-bottom: 170px;
+  padding-left: 170px;
 }
