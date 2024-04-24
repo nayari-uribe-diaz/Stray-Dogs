@@ -29,8 +29,5 @@ p {
 }
 
 .everything{
-	padding-top: 170px;
-  padding-right: 170px;
-  padding-bottom: 170px;
-  padding-left: 170px;
+	text-align: center;
 }

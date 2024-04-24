@@ -15,25 +15,31 @@
   
   </head>
   <body>
-   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+   <nav class="navbar navbar-expand navbar-dark" style="background-color: brown;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">top</a>
+        <a class="navbar-brand" href="/">MexDogPops</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a {% if active_page == "home" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/">Home</a>
+              <a {% if active_page == "about" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/">About</a>
             </li>
             <li class="nav-item">
-              <a {% if active_page == "page1" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/p1"><!--Page 1--></a>
+              <a {% if active_page == "causes" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/causes">Causes</a>
             </li>
             <li class="nav-item">
-              <a {% if active_page == "page2" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/p2"><!--Page 2--></a>
+              <a {% if active_page == "health" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/health">Health</a>
             </li>
 			 <li class="nav-item">
-              <a {% if active_page == "page3" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/p3"><!--Page 3--></a>
+              <a {% if active_page == "attacks" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/attacks">Attacks</a>
+            </li>
+			<li class="nav-item">
+              <a {% if active_page == "government" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/gov">Gov. Help</a>
+            </li>
+			<li class="nav-item">
+              <a {% if active_page == "solutions" %} class="nav-link active"{% else %}class="nav-link"{% endif %} href="/solutions">Solutions</a>
             </li>
           </ul>
         </div>
